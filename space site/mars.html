@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination</title>
+    <link href="mars.css" rel="stylesheet" type="text/css">
+</head>
+</head>
+
+<body>
+    <div class="mainimg"></div>
+    <div class="nav-continer">
+        <div class="nav-img">
+            <img src="https://fm-space-tourism.davequah.com/assets/shared/logo.svg" alt="logo">
+        </div>
+        <!-- <div class="line svelte-1votbv2"></div>   -->
+        <div class="navbar">
+            <h1><a href="index.html" class="nav-link">00 HOME</a></h1>
+            <h1><a href="desti.html" class="nav-link">01 DESTINATION</a></h1>
+            <h1><a href="crew.html" class="nav-link">02 CREW</a></h1>
+            <h1><a href="technology.html" class="nav-link">03 TECHNOLOGY</a></h1>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="one">
+            <h1 class="numbered-title svelte-1gj1k5b">
+                <span aria-hidden="true">01</span>
+                Pick your destination
+            </h1>
+            <img  src="imageshome/image-mars.png" alt="Rotating Image" id="moon-img" class="moonimg">
+        </div>
+
+        <div class="tabs">
+            <div role="tablist" aria-label="destination list" class="tab-list">
+                <div role="tablist" aria-label="destination list" class="tab-list">
+                    <a href="desti.html" class="nav2" role="tab" aria-selected="false" aria-controls="destination-0" tabindex="-1" data-index="0">
+                        Moon
+                    </a>
+                    <a href="mars.html" class="nav2" role="tab" aria-selected="false" aria-controls="destination-1" tabindex="-1" data-index="1">
+                        Mars
+                    </a>
+                    <a href="europa.html" class="nav2" role="tab" aria-selected="true" aria-controls="destination-2" tabindex="0" data-index="2">
+                        Europa
+                    </a>
+                    <a href="titan.html" class="nav2" role="tab" aria-selected="false" aria-controls="destination-3" tabindex="-1" data-index="3">
+                        Titan
+                    </a>
+                </div>
+            <article id="Moon" role="tabpanel" tabindex="0" data-visible="true" class="page active">
+                <h2 class="maintext">MARS</h2>
+                <p class="text-accent">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                <div class="destination-meta flex svelte-1gj1k5b">
+                    <div class="container">
+                        <div>
+                            <h3 class="uppercase text-accent fs-200">Avg. distance</h3>
+                            <p class="text1">225 MIL. KM</p>
+                        </div>
+                    
+                        <div>
+                            <h3 class="uppercase text-accent fs-200">Est. travel time</h3>
+                            <p class="text2">9 MONTHS</p>
+                        </div>
+                    </div>
+            </article>
+        </div>
+    </div>
+
+</body>
+<script src="destination.js">
+
+</script>
+
+</html>
